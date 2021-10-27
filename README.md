@@ -2,7 +2,7 @@
 
 Educational project of simple 2D game inspired by Flappy Bird but with different control of motion
 
-Game is made in C++ using SFML library in Eclipse IDE.
+Game will be made in C++ using SFML library in Eclipse IDE.
 
 Basic functionalities, which I will try to implement:
 - Main menu of the game with options: Play, Settings, Scoreboard, Exit.
