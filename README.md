@@ -11,8 +11,9 @@ Basic functionalities, which I will try to implement:
 - The main goal of the game is to avoid the obstacles generated similar to Flappy Bird project.
 - There will be additional objects, which modifies the score counter, change movement speed or end the game.
 - The game will allow you to pause.
+- Objects in game will have their own graphics.
 
 Additional plans:
-- Choose in settings the language of the game (English, Polish)
+- Choose in settings the language of the game (English, Polish).
 
 This information included in this file may change.
