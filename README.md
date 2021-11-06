@@ -31,5 +31,3 @@ First version of flying cat. As of today implemented:
 - After hitting the obstacle, game immediately show main menu.
 
 There are exist some bugs like no speed reset when starting a new game.
-=======
->>>>>>> 3adde6165d9653d5aa879b0fcbe55496867def84
