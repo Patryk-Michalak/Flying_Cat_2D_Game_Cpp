@@ -17,6 +17,7 @@ Additional plans:
 - Choose in settings the language of the game (English, Polish).
 
 This information included in this file may change.
+<<<<<<< HEAD
 
 # 06.11.2021
 
@@ -30,3 +31,5 @@ First version of flying cat. As of today implemented:
 - After hitting the obstacle, game immediately show main menu.
 
 There are exist some bugs like no speed reset when starting a new game.
+=======
+>>>>>>> 3adde6165d9653d5aa879b0fcbe55496867def84
