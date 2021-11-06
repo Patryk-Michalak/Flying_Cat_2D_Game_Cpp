@@ -17,7 +17,6 @@ Additional plans:
 - Choose in settings the language of the game (English, Polish).
 
 This information included in this file may change.
-<<<<<<< HEAD
 
 # 06.11.2021
 
