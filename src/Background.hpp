@@ -11,6 +11,7 @@ private:
 	sf::Texture textureGameplayBackground;
 	sf::Texture texturePauseBackground;
 	sf::Texture textureGameOverBackground;
+
 	sf::Sprite spriteIntroBackground;
 	sf::Sprite spriteMainMenuBackground;
 	sf::Sprite spriteGameplayBackground;
@@ -21,15 +22,7 @@ public:
 	Background();
 	~Background();
 
-	sf::Sprite getIntroBackground();
-	sf::Sprite getMainMenuBackground();
-	sf::Sprite getGameplayBackground();
-	sf::Sprite getPauseBackground();
-	sf::Sprite getGameOverBackground();
-
-	void drawBackground(sf::RenderWindow * renderedWindow, sf::Sprite usedBackground);
+	void drawBackground(sf::RenderWindow * renderedWindow, std::string typeOfBackground);
 };
-
-
 
 #endif

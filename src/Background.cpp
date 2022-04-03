@@ -6,7 +6,7 @@ Background::Background()
 	textureMainMenuBackground.loadFromFile("src/Graphics/Backgrounds/MainMenu.png");
 	textureGameplayBackground.loadFromFile("src/Graphics/Backgrounds/Gameplay.png");
 	texturePauseBackground.loadFromFile("src/Graphics/Backgrounds/Pause.png");
-	textureGameOverBackground.loadFromFile("src/Graphics/GameOver.png");
+	textureGameOverBackground.loadFromFile("src/Graphics/Backgrounds/GameOver.png");
 
 	spriteIntroBackground.setTexture(textureIntroBackground);
 	spriteMainMenuBackground.setTexture(textureMainMenuBackground);
@@ -19,32 +19,26 @@ Background::~Background()
 {
 }
 
-sf::Sprite Background::getIntroBackground()
+void Background::drawBackground(sf::RenderWindow * renderedWindow, std::string typeOfBackground)
 {
-	return spriteIntroBackground;
-}
-
-sf::Sprite Background::getMainMenuBackground()
-{
-	return spriteMainMenuBackground;
-}
-
-sf::Sprite Background::getGameplayBackground()
-{
-	return spriteGameplayBackground;
-}
-
-sf::Sprite Background::getPauseBackground()
-{
-	return spritePauseBackground;
-}
-
-sf::Sprite Background::getGameOverBackground()
-{
-	return spriteGameOverBackground;
-}
-
-void Background::drawBackground(sf::RenderWindow * renderedWindow, sf::Sprite usedBackground)
-{
-	renderedWindow->draw(usedBackground);
+	if (typeOfBackground == "introBackground")
+	{
+		renderedWindow->draw(spriteIntroBackground);
+	}
+	if (typeOfBackground == "pauseBackground")
+	{
+		renderedWindow->draw(spritePauseBackground);
+	}
+	if (typeOfBackground == "mainMenuBackground")
+	{
+		renderedWindow->draw(spriteMainMenuBackground);
+	}
+	if (typeOfBackground == "gameplayBackground")
+	{
+		renderedWindow->draw(spriteGameplayBackground);
+	}
+	if (typeOfBackground == "gameOverBackground")
+	{
+		renderedWindow->draw(spriteGameOverBackground);
+	}
 }

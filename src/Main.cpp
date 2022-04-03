@@ -1,9 +1,9 @@
 //============================================================================
 // Name        : Flying_Cat_2D_Game_Cpp.cpp
 // Author      : Patryk Michalak
-// Version     : 0.1v
-// Copyright   : Non-commercial free use program
-// Description : Flying Cat, C++ game using sfml library
+// Version     : 0.2v
+// Copyright   : Non-commercial, educational free use program
+// Description : Flying Cat, C++ game using SFML library
 //============================================================================
 #include "Game.hpp"
 
